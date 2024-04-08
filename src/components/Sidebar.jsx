@@ -34,9 +34,9 @@ const Sidebar = () => {
     <section className="h-[80vh]">
       <div className=" rounded">
         <div
-          className={`flex items-center justify-between p-4 cursor-pointer focus:text-blue-500 active:text-blue-500 hover:text-blue-500 transition duration-300 ${
+          className={`flex items-center justify-between p-4 cursor-pointer hover:text-blue-500 transition duration-300 ${
             activeBtn === "dropdown1"
-              ? "text-[#1677ff] bg-[#f4f4f5]"
+              ? "text-[#1677ff] bg-[#e6f5fe]"
               : "text-[#001428]"
           }`}
           onClick={() => {
@@ -54,7 +54,7 @@ const Sidebar = () => {
             <p
               className={` py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option1"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option1")}
@@ -64,7 +64,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option2"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option2")}
@@ -74,7 +74,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option3"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option3")}
@@ -84,7 +84,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option4"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option4")}
@@ -96,9 +96,9 @@ const Sidebar = () => {
       </div>
       <div className=" rounded">
         <div
-          className={`flex items-center justify-between p-4 cursor-pointer focus:text-blue-500 active:text-blue-500 hover:text-blue-500 transition duration-300 ${
+          className={`flex items-center justify-between p-4 cursor-pointer hover:text-blue-500 transition duration-300 ${
             activeBtn === "dropdown2"
-              ? "text-[#1677ff] bg-[#f4f4f5]"
+              ? "text-[#1677ff] bg-[#e6f5fe]"
               : "text-[#001428]"
           }`}
           onClick={() => {
@@ -116,7 +116,7 @@ const Sidebar = () => {
             <p
               className={` py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option1"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option1")}
@@ -126,7 +126,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option2"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option2")}
@@ -136,7 +136,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option3"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option3")}
@@ -146,7 +146,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option4"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option4")}
@@ -158,9 +158,9 @@ const Sidebar = () => {
       </div>
       <div className=" rounded">
         <div
-          className={`flex items-center justify-between p-4 cursor-pointer focus:text-blue-500 active:text-blue-500 hover:text-blue-500 transition duration-300  ${
+          className={`flex items-center justify-between p-4 cursor-pointer hover:text-blue-500 transition duration-300  ${
             activeBtn === "dropdown3"
-              ? "text-[#1677ff] bg-[#f4f4f5]"
+              ? "text-[#1677ff] bg-[#e6f5fe]"
               : "text-[#001428]"
           }`}
           onClick={() => {
@@ -178,7 +178,7 @@ const Sidebar = () => {
             <p
               className={` py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option1"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option1")}
@@ -188,7 +188,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option2"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option2")}
@@ -198,7 +198,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option3"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option3")}
@@ -208,7 +208,7 @@ const Sidebar = () => {
             <p
               className={`py-2 px-4 hover:text-blue-500 cursor-pointer transition duration-300 ${
                 activeBtn === "option4"
-                  ? "text-[#1677ff] bg-[#f4f4f5]"
+                  ? "text-[#1677ff] bg-[#e6f5fe]"
                   : "text-[#001428]"
               }`}
               onClick={() => handleClick("option4")}
