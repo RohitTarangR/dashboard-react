@@ -4,7 +4,7 @@ const ContentArea = () => {
   return (
     <>
       <section className="p-5">
-        ContentArea
+        Content
       </section>
     </>
   );

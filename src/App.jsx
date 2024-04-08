@@ -1,11 +1,11 @@
 import React from 'react'
-import MainDash from './components/MainDash'
+import Navbar from './components/Navbar'
 import MainContent from './components/MainContent'
 
 const App = () => {
   return (
     <>
-    <MainDash />
+    <Navbar />
     <MainContent />
     </>
   )
